@@ -71,7 +71,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Emajhon server is running now");
+  res.send("ema jhon server is running now");
 });
 
 app.listen(port, () => {
